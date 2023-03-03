@@ -1,0 +1,13 @@
+
+BST has 3 properties
+1. The left subtree of a node contains only nodes with keys lesser than the node’s key.
+2. The right subtree of a node contains only nodes with keys greater than the node’s key.
+3. The left and right subtree each must also be a binary search tree.
+
+// when finding a node with the value e;
+1. start from the root
+2. if the value of the root is not equal to e then traverse the tree
+3. if more than e -> traverse right 
+    and if less than e -> traverse left
+4. traverse until the node's value is equal to e or reach NULL
+this method will make finding a value in the BST incredibly fast with the time complexity of O(h);
